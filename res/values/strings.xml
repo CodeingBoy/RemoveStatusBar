@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">再见状态栏</string>
-</resources>
+
+    <resources>
+        <string name="app_name">再见，简单状态栏</string>
+        <string name="XposedDescription">移除 MIUI 通知栏上方的简单状态栏(By CodeingBoy)</string>
+    </resources>

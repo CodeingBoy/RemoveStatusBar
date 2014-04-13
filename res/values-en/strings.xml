@@ -1,0 +1,5 @@
+
+    <resources>
+        <string name="app_name">Remove Simple Status Bar</string>
+        <string name="XposedDescription">Remove simple status bar in MIUI expanded status bar.</string>
+    </resources>

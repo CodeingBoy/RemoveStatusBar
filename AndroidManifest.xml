@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.CodeingBoy.removestatusbar"
-    android:versionCode="2"
-    android:versionName="1.1" >
+    package="me.CodeingBoy.RemoveSimpleStatusbar"
+    android:versionCode="5"
+    android:versionName="1.4" >
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -14,7 +14,7 @@
         android:theme="@style/AppBaseTheme" >
         <meta-data android:value="true" android:name="xposedmodule"/>
         <meta-data android:value="2.0*" android:name="xposedminversion"/>
-        <meta-data android:name="xposeddescription" android:value="移除MIUI通知栏上方的状态栏"/>
+        <meta-data android:name="xposeddescription" android:value="移除MIUI通知栏上方的状态栏" android:resource="@string/XposedDescription"/>
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.CodeingBoy.removestatusbar;
+package me.CodeingBoy.RemoveSimpleStatusbar;
 
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
@@ -7,13 +7,7 @@ import de.robv.android.xposed.IXposedHookZygoteInit;
 import de.robv.android.xposed.callbacks.XC_InitPackageResources.InitPackageResourcesParam;
 import de.robv.android.xposed.callbacks.XC_LayoutInflated;
 
-public class Functions implements IXposedHookZygoteInit, IXposedHookInitPackageResources {
-	 private static String MODULE_PATH = null;
-
-	    @Override
-	    public void initZygote(StartupParam startupParam) throws Throwable {
-	        MODULE_PATH = startupParam.modulePath;
-	    }
+public class Functions implements IXposedHookInitPackageResources {
 
 	    @Override
 	    public void handleInitPackageResources(InitPackageResourcesParam resparam) throws Throwable {
